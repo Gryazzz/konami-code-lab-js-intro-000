@@ -9,11 +9,11 @@ function init() {
       ind++;
 
       if (ind === code.length) {
-        window.alert('You did it!');
-        ind = 0;
-      } else {
+        alert('You did it!');
         ind = 0;
       }
-    }
+    } else {
+        ind = 0;
+      }
   });
 }
