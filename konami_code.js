@@ -8,12 +8,12 @@ function init() {
     if (key === code[ind]) {
       ind++;
 
-    if (ind === code.length) {
-      alert('You did it!');
-      ind = 0;
-    } else {
-      ind = 0;
+      if (ind === code.length) {
+        window.alert('You did it!');
+        ind = 0;
+      } else {
+        ind = 0;
+      }
     }
-  }
-});
+  });
 }
