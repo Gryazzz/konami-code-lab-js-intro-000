@@ -12,7 +12,6 @@ function init() {
       alert('You did it!');
       i = 0;
     } else {
-      alert('wrong');
       i = 0;
     }
   }
